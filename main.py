@@ -65,7 +65,7 @@ Name album - Name artist
 '''
 
 sort = {}
-telegram_token = 'token'
+telegram_token = '5678453269:AAHbsFR__Eg6wdPHQoBkS3L4iVeOfiG6D64'
 
 def start(update: Update, context: CallbackContext):
     context.bot.send_message(chat_id=update.effective_chat.id, text=WELCOME)
